@@ -1,0 +1,21 @@
+.table-container {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    background-color: rgba(235, 235, 254, 0.24);
+
+}
+@media screen and (max-width: 600px) {
+    .table-container{
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: var(--softrose);
+}

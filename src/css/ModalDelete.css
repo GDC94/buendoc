@@ -1,0 +1,19 @@
+.delete-container {
+    max-width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.delete-container > img {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.delete-container > h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--strongblue);
+}
+

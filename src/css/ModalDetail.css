@@ -1,0 +1,47 @@
+
+.ant-modal-body {
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.5715;
+    word-wrap: break-word;
+    background-color: #eff5f413;
+}
+.ant-modal-title {
+   
+    color: var(--strongblue);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    word-wrap: break-word;
+    font-family: 'Comfortaa';
+    font-weight: bold !important;
+    
+}
+.modal-detail-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal-detail-img {
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.modal-detail-img img {
+    width: 180px;
+    border-radius: 8px;
+}
+
+.modal-detail-name img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.modal-detail-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

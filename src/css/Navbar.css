@@ -1,0 +1,30 @@
+.ant-layout-header {
+    padding: 0;
+}
+.container {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 75px;
+}
+
+.image {
+  width: 165px;
+  margin-top: 15px;
+}
+.right-ul {
+  list-style: none;
+}
+.right-ul a {
+  text-decoration: none;
+}
+.github-icon {
+  margin-top: 35px;
+  margin-right: 40px;
+  font-size: 25px;
+  color: var(--strongblue);
+}
+

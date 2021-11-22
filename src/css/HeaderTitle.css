@@ -1,0 +1,100 @@
+.ant-layout-header {
+  padding: 0;
+}
+
+.title-container {
+  background-color: var(--softrose);
+  height: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title p {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 54px;
+  margin-bottom: 0px;
+  height: 45px;
+  letter-spacing: 0.175em;
+  text-transform: uppercase;
+  color: var(--letter);
+}
+
+.title h2 {
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  color: var(--strongblue);
+}
+
+
+.button {
+  background-color: var(--violet) !important;
+  color: var(--white);
+  font-weight: bold;
+  border: none;
+  margin: 20px;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.button:hover {
+  background-color: var(--turquoise) !important;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  .buttons {
+      flex-direction: column;
+  }
+}
+
+.especialidades {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icons {
+  width: 45px;
+  margin: 10px;
+}
+
+.ant-divider-horizontal.ant-divider-with-text {
+  padding-right: 17px;
+}
+
+
+.ant-btn-primary {
+  color: #fff;
+  font-weight: bold;
+  border-color: var(--violet);
+  background: var(--violet);
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  margin-left: 10px;
+}
+.ant-btn-primary:hover {
+  border-color: var(--turquoise);
+  background: var(--turquoise);
+  
+}
+
+.ant-btn-ghost {
+  color: var(--violet);
+  font-weight: bold;
+  border: 2px solid var(--turquoise);
+  background: transparent;
+
+}
